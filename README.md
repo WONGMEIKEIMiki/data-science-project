@@ -1,4 +1,4 @@
-# data-science-project
+# Data-science-project
 Spotify Financial Performance Analysis
 
 ## Project Overview
@@ -15,6 +15,9 @@ Variables:
 - Total_Debt: interest‑bearing external debt
 - Cash_Reserve: cash & cash equivalents
 
+**Data Source & Usage Permissions:** 
+Data was manually extracted and aggregated from Spotify’s official published Annual Reports and SEC filings (2021–2025). This dataset is compiled strictly for academic research and educational coursework evaluation under fair use principles.
+
 ## Tools & Methodology
 - Python 3
 - Pandas: data cleaning & statistical calculation
@@ -24,10 +27,17 @@ Variables:
 
 ## Key Findings
 1. Revenue: Shows steady, continuous growth from 9 667 M€ to 15 890 M€, reflecting expanding user base and subscription revenue.
+   ![Revenue Trend](./fig1_revenue.png)
+   
 2. Net Income: Gradually narrows losses and turns positive in 2024‑2025, which signals improving operating efficiency after years of deficit.
-3. Operating Cash Flow: Grows strongly every year. Even when the company was still reporting accounting losses, its core business kept generating healthy cash.
+   ![Net income Trend](./fig2_net_income.png)
+   
+3. Operating Cash Flow: Operating Cash Flow grew strongly every year. Even during periods of net losses, Spotify’s core business consistently generated positive cash, highlighting strong working capital management and subscription upfront cash collection.
+   ![Operating cash flow Trend](./fig3_ocf.png)
+   
 4. Capital structure: Spotify keeps building up its cash reserve while significantly paying down total debt. This conservative high‑cash, low‑debt strategy helps it buffer against high and volatile music copyright costs.
-
+    ![Cash vs Debt Trend](./fig4_cash_debt.png)
+   
 ## Project Limitations
 1. This is a simplified annual dataset and does not include quarterly data or detailed breakdown of operating costs.
 2. We do not quantitatively model external factors such as copyright price changes, market competition or macroeconomic shocks.
